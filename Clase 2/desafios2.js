@@ -43,7 +43,8 @@ if (puntuacion>=100){
 }
     
 //Desafío 4
-let saldo = 34039003.90;
+let saldo = 34039003.98;
 alert("El saldo de su cuenta es: $" + parseFloat(saldo));
 //Desafío 5
-
+let nombreUsuario = prompt("Ingrese su nombre:");
+alert("Bienvenido " + nombreUsuario + ".")
