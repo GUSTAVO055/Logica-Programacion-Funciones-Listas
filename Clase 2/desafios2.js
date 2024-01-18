@@ -34,8 +34,16 @@ if (numero==0){
 }
 
 //Desafío 3
+let puntuacion=prompt("Ingrese un puntuación:");
 
+if (puntuacion>=100){
+    alert("¡Felicidades, has ganado!");
+}else{
+    alert("Intenta nuevamente para ganar.");
+}
+    
 //Desafío 4
-
+let saldo = 34039003.90;
+alert("El saldo de su cuenta es: $" + parseFloat(saldo));
 //Desafío 5
 
