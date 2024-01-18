@@ -16,7 +16,14 @@ while (contador<=10) {
     contador++;
 }
 
+alert("Desafío 2");
 //Desafío 2
+let contadorDesc=10;
+while (contadorDesc>=0) {
+    alert("Contador en: " + contadorDesc);
+    contadorDesc--;
+}
+
 //Desafío 3
 
 //Desafío 4
