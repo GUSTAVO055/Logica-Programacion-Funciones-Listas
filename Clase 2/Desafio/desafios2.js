@@ -1,21 +1,50 @@
 /**
-Desafíos
+1-Crear una función que muestre "¡Hola, mundo!" en la consola.
+2-Crear una función que reciba un nombre como parámetro y muestre "¡Hola, [nombre]!" en la consola.
+3-Crear una función que reciba un número como parámetro y devuelva el doble de ese número.
+4-Crear una función que reciba tres números como parámetros y devuelva su promedio.
+5-Crear una función que reciba dos números como parámetros y devuelva el mayor de ellos.
+6-Crear una función que reciba un número como parámetro y devuelva el resultado de multiplicar ese número por sí mismo.
 
-1-Crea un contador que comience en 1 y vaya hasta 10 usando un bucle 'while'. Muestra cada número.
-2-Crea un contador que comience en 10 y vaya hasta 0 usando un bucle 'while'. Muestra cada número.
-3-Crea un programa de cuenta regresiva. Pide un número y cuenta desde 0 hasta ese número utilizando un bucle 'while' en la consola del navegador.
-4-Crea un programa de cuenta progresiva. Pide un número y cuenta desde 0 hasta ese número utilizando un bucle 'while' en la consola del navegador.
- */
+*/
 
 
 //Resoluciones
 //Desafío 1
+function hola(){
+    console.log("Hola Mundo.")
+}
 
 
 
 //Desafío 2
-
+function saludo(nombre){
+    console.log("Hola " + nombre + ".")
+}
 
 //Desafío 3
+function dobleDeNumero(numero){
+    let doble = parseInt(numero*2);
+    return doble;
+}
 
 //Desafío 4
+function promedio(n1,n2,n3){
+    let promedio = (n1+n2+n3)/3;
+    return promedio;
+}
+//Desafío 5
+function mayorNumero(n1,n2){
+    mayor=n2;
+    
+    if (n1>n2) {
+        mayor=n1;
+    }
+    return mayor;
+}
+
+//Desafío 6
+function multiplicarNumero(n1,n2){
+    
+    return n1*n2;
+}
