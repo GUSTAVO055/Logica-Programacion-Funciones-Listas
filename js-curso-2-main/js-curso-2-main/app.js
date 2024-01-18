@@ -14,6 +14,6 @@ function alertaPresionado(){
 function sumarNumeros(){
     let val1=prompt("Ingrese nro 1:");
     let val2=prompt("Ingrese nro 2:");
-    let resultado= val1+val2;
+    let resultado= parseInt(val1) + parseInt(val2);
     alert("El resultado de la suma es " + resultado + ".");
 }
