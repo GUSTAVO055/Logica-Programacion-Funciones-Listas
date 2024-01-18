@@ -8,14 +8,11 @@
 
 */
 
-
 //Resoluciones
 //Desafío 1
 function hola(){
     console.log("Hola Mundo.")
 }
-
-
 
 //Desafío 2
 function saludo(nombre){
