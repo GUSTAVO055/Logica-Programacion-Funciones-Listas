@@ -19,34 +19,71 @@ Desafíos
 
 //Resoluciones
 //Desafío 1
-alert("Desafío de 1 a 10");
-let contador=1;
-while (contador<=10) {
-    alert("Contador en: " + contador);
-    contador++;
-}
-
+console.log("Bienvenido al sistema.");
 
 //Desafío 2
-alert("Desafío de 10 a 0");
-let contadorDesc=10;
-while (contadorDesc>=0) {
-    alert("Contador en: " + contadorDesc);
-    contadorDesc--;
-}
+let nombre = "Gustavo";
+console.log("Hola " + nombre + "!")
 
 //Desafío 3
-alert("Cuenta regresiva");
-let nroContadorDesc=prompt("Ingrese un número:");
-while (nroContadorDesc>=0) {
-    alert("Contador en: " + nroContadorDesc);
-    nroContadorDesc--;
-}
+let nombre3 = "Gustavo";
+alert("Hola " + nombre3 + "!")
+
 //Desafío 4
-alert("Cuenta progresiva");
-let nroContadorAsc=prompt("Ingrese un número:");
-let cont=0;
-while (cont<=nroContadorAsc) {
-    alert("Contador en: " + cont);
-    cont++;
+let respuesta = prompt("¿Cuál es el lenguaje de programación que más te gusta?");
+console.log("Usted ha ingresado: " + respuesta);
+
+//Desafío 5
+let valor1d5= 145;
+let valor2d5= 354;
+
+let resultadod5 = valor1d5 + valor2d5;
+
+console.log("La suma de " + valor1d5 + " y " + valor2d5 + " es " + resultado +".");
+
+
+//Desafío 6
+let valor1d6= 145;
+let valor2d6= 354;
+
+let resultadod6 = valor1d6 - valor2d6;
+
+console.log("La resta de " + valor1d6 + " y " + valor2d6 + " es " + resultadod6 +".");
+
+
+//Desafío 7
+let edad = prompt("¿Cuál es su edad?");
+
+if (edad>=18) {
+    console.log("Usted es mayor de edad.");
+}else{
+    console.log("Usted es menor de edad.");
+    
 }
+
+//Desafío 8
+let numerod8=prompt("Ingrese un número:");
+
+if (numerod8==0) {
+    alert("El numero es cero.");
+}else{
+    if(numerod8>0){
+        alert("El numero es positivo.");
+    }else{
+        alert("El numero es negativo.");
+    }
+}
+
+//Desafío 9
+let num=1;
+while (num<=10) {
+    console.log("Número " + num);
+    num++;
+}
+
+//Desafío 10
+
+
+//Desafío 11
+//Desafío 12
+//Desafío 13
