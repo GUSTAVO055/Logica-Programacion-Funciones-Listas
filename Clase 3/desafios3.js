@@ -10,14 +10,16 @@ Desafíos
 
 //Resoluciones
 //Desafío 1
+alert("Desafío de 1 a 10");
 let contador=1;
 while (contador<=10) {
     alert("Contador en: " + contador);
     contador++;
 }
 
-alert("Desafío 2");
+
 //Desafío 2
+alert("Desafío de 10 a 0");
 let contadorDesc=10;
 while (contadorDesc>=0) {
     alert("Contador en: " + contadorDesc);
@@ -25,5 +27,17 @@ while (contadorDesc>=0) {
 }
 
 //Desafío 3
-
+alert("Cuenta regresiva");
+let nroContadorDesc=prompt("Ingrese un número:");
+while (nroContadorDesc>=0) {
+    alert("Contador en: " + nroContadorDesc);
+    nroContadorDesc--;
+}
 //Desafío 4
+alert("Cuenta progresiva");
+let nroContadorAsc=prompt("Ingrese un número:");
+let cont=0;
+while (cont<=nroContadorAsc) {
+    alert("Contador en: " + cont);
+    cont++;
+}
