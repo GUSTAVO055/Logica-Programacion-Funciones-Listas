@@ -21,13 +21,18 @@ if (diaSemana=="sabado" || diaSemana=="domingo") {
 }
 //Desafío 2
 let numero=prompt("Ingrese un número:");
-if (numero>0) {
-    alert("el número es positivo.");
-}else{
-    alert("el número es negativo.");
-}else{
+
+if (numero==0){
     alert("el número es cero.");
+} else {
+    
+    if (numero>0) {
+        alert("el número es positivo.");
+    }else{
+        alert("el número es negativo.");
+    }
 }
+
 //Desafío 3
 
 //Desafío 4
