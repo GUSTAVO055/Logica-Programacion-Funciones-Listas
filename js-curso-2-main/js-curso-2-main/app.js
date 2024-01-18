@@ -5,5 +5,15 @@ function consolePresionado(){
     alert("El botón fue clicado");
 }
 function preguntarCiudad(){
-    alert("El botón fue clicado");
+    let ciudad=prompt("Ingrese una ciudad de Brasil:");
+    alert("Estuve en " + ciudad +" y me acordé de ti.")
+}
+function alertaPresionado(){
+    alert("Yo amo JS");
+}
+function sumarNumeros(){
+    let val1=prompt("Ingrese nro 1:");
+    let val2=prompt("Ingrese nro 2:");
+    let resultado= val1+val2;
+    alert("El resultado de la suma es " + resultado + ".");
 }
