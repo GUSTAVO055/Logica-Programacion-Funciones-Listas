@@ -82,8 +82,23 @@ while (num<=10) {
 }
 
 //Desafío 10
+let nota = prompt("Ingrese nota del alumno:");
 
+if (nota>=7) {
+    console.log("Aprobado");
+}else{
+    console.log("Desaprobado");
+}
 
 //Desafío 11
+let numAleatorio = Math.random();
+console.log("El número aleatorio generado es: " + numAleatorio);
+
 //Desafío 12
+let numAleatoriod12 = Math.random()*10+1;
+console.log("El número aleatorio generado entre 1 y 10 es: " + numAleatoriod12);
+
+
 //Desafío 13
+let numAleatoriod13 = Math.random()*1000+1;
+console.log("El número aleatorio generado entre 1 y 1000 es: " + numAleatoriod13);
