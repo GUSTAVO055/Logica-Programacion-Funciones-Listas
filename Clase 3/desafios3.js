@@ -19,21 +19,47 @@ function calcularIndiceMC(altura, peso){
 //Desafío 2
 function factorial(numero){
 
-    let resultado=numero;
+    let resultado=parseInt(numero);
+
+    if(numero==0)return 1;
+
+    if(numero<0)return 0;
 
     while (numero>=1) {
-
-        resultado = resultado * numero--;
+        numero--;
+        resultado = resultado * numero;
 
     }
     return resultado;
 
 }
 
+
 //Desafío 3
+function convertirEnDolares(reales){
+
+    let dolares = parseFloat(reales)/4.80;
+
+    return dolares;
+}
 
 //Desafío 4
+function calcularAreaYPerimetro(ancho, alto){
+
+    let perimetro = ancho*alto;
+
+    return perimetro;
+
+}
 
 //Desafío 5
+function calcularAreaYPerimetro(radio){
+
+    let perimetro = ancho*alto;
+
+    return perimetro;
+
+}
+
 
 //Desafío 6
