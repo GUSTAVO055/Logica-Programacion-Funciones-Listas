@@ -1,43 +1,39 @@
 /**
 Desafíos
-
-1-Crea un contador que comience en 1 y vaya hasta 10 usando un bucle 'while'. Muestra cada número.
-2-Crea un contador que comience en 10 y vaya hasta 0 usando un bucle 'while'. Muestra cada número.
-3-Crea un programa de cuenta regresiva. Pide un número y cuenta desde 0 hasta ese número utilizando un bucle 'while' en la consola del navegador.
-4-Crea un programa de cuenta progresiva. Pide un número y cuenta desde 0 hasta ese número utilizando un bucle 'while' en la consola del navegador.
- */
-
+1-Crea una función que calcule el índice de masa corporal (IMC) de una persona a partir de su altura en metros y peso en kilogramos, que se recibirán como parámetros.
+2-Crea una función que calcule el valor del factorial de un número pasado como parámetro.
+3-Crea una función que convierta un valor en dólares, pasado como parámetro, y devuelva el valor equivalente en reales(moneda brasileña,si deseas puedes hacerlo con el valor del dólar en tu país). Para esto, considera la cotización del dólar igual a R$4,80.
+4-Crea una función que muestre en pantalla el área y el perímetro de una sala rectangular, utilizando la altura y la anchura que se proporcionarán como parámetros.
+5-Crea una función que muestre en pantalla el área y el perímetro de una sala circular, utilizando su radio que se proporcionará como parámetro. Considera Pi = 3,14.
+6-Crea una función que muestre en pantalla la tabla de multiplicar de un número dado como parámetro.
+*/
 
 //Resoluciones
 //Desafío 1
-alert("Desafío de 1 a 10");
-let contador=1;
-while (contador<=10) {
-    alert("Contador en: " + contador);
-    contador++;
+function calcularIndiceMC(altura, peso){
+    let imc = peso / (altura*altura);
+    return imc;
+
 }
 
-
 //Desafío 2
-alert("Desafío de 10 a 0");
-let contadorDesc=10;
-while (contadorDesc>=0) {
-    alert("Contador en: " + contadorDesc);
-    contadorDesc--;
+function factorial(numero){
+
+    let resultado=numero;
+
+    while (numero>=1) {
+
+        resultado = resultado * numero--;
+
+    }
+    return resultado;
+
 }
 
 //Desafío 3
-alert("Cuenta regresiva");
-let nroContadorDesc=prompt("Ingrese un número:");
-while (nroContadorDesc>=0) {
-    alert("Contador en: " + nroContadorDesc);
-    nroContadorDesc--;
-}
+
 //Desafío 4
-alert("Cuenta progresiva");
-let nroContadorAsc=prompt("Ingrese un número:");
-let cont=0;
-while (cont<=nroContadorAsc) {
-    alert("Contador en: " + cont);
-    cont++;
-}
+
+//Desafío 5
+
+//Desafío 6
