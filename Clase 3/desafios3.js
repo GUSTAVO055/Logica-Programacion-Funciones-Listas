@@ -19,13 +19,13 @@ function calcularIndiceMC(altura, peso){
 //Desafío 2
 function factorial(numero){
 
-    let resultado=parseInt(numero);
-
     if(numero==0)return 1;
 
     if(numero<0)return 0;
 
-    while (numero>=1) {
+    var resultado=parseInt(numero);
+
+    while (numero>=2) {
         numero--;
         resultado = resultado * numero;
 
@@ -33,7 +33,7 @@ function factorial(numero){
     console.log("resultado factorial " + resultado);
 
 }
-factorial(6);
+factorial(5);
 
 //Desafío 3
 function convertirEnDolares(reales){
