@@ -30,10 +30,10 @@ function factorial(numero){
         resultado = resultado * numero;
 
     }
-    return resultado;
+    console.log("resultado factorial " + resultado);
 
 }
-
+factorial(6);
 
 //Desafío 3
 function convertirEnDolares(reales){
@@ -60,6 +60,20 @@ function calcularAreaYPerimetro(radio){
     return perimetro;
 
 }
+function mostrarTablaDeMultiplicar(numeroMul){
+    let contador=0;
+    let resultado=0;
+    while (contador<=10) {
+        
+        resultado = numeroMul * contador;
+
+        console.log(numeroMul + " x " + contador + " = " + resultado);
+        
+        contador++;
+    }
+
+}
+
 
 
 //Desafío 6
